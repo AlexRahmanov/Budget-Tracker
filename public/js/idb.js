@@ -11,9 +11,9 @@ request.onupgradeneeded = function(event) {
 
 // upon a successful 
 request.onsuccess = function(event) {
-    // when db is successfully created with its object store 
+  // when db is successfully created with its object store 
     db = event.target.result;
-    // check if app is online
+  // check if app is online
     if (navigator.onLine) {
       uploadTransaction();
     }
@@ -64,11 +64,11 @@ function uploadTransaction() {
           if (serverResponse.message) {
             throw new Error(serverResponse);
           }
-          // open one more transaction
+        // open one more transaction
           const transaction = db.transaction(['new_transaction'], 'readwrite');
-          // access the object store
+        // access the object store
           const budgetObjectStore = transaction.objectStore('new_transaction');
-          // clear all items in your store
+        // clear all items in your store
           budgetObjectStore.clear();
 
           alert('All saved transactions has been submitted!');
