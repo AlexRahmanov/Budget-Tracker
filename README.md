@@ -32,3 +32,9 @@ Clone the repository from GitHub and install all the dependencies Refer package.
 # Mock-Up:
 ![mockup](https://user-images.githubusercontent.com/86209350/177052329-5e62fa9f-20a4-42b6-ae59-e57c0916cb4b.jpg)
 
+
+
+https://user-images.githubusercontent.com/86209350/177052352-d4175c3e-9ac5-427a-a431-3ee3fdd20bfe.mp4
+
+
+
