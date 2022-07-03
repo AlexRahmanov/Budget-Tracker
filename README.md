@@ -1,2 +1,2 @@
 # Budget-Tracker
-[Heroku APP] (https://budgetrack3r.herokuapp.com/)
+[Heroku APP](https://budgetrack3r.herokuapp.com/)
